@@ -45,5 +45,5 @@ const Food = class {
 	}
 }
 
-pizza = new food ('Pizza', '8,99 USD')
-hamburger = new food ('Hamburger', '3,99 USD')
+pizza = new Food ('Pizza', '8,99 USD')
+hamburger = new Food ('Hamburger', '3,99 USD')
