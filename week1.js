@@ -14,8 +14,8 @@ const Store = class {
 	}
 }
 
-restaurant = new Store ('Ristorante la Piazza', 'Italian')
-kiosk = new Store ('Corner Buffet', 'Street food')
+const restaurant = new Store ('Ristorante la Piazza', 'Italian')
+const kiosk = new Store ('Corner Buffet', 'Street food')
 
 const Driver = class {
 	constructor(name, vehicle) {
@@ -45,5 +45,5 @@ const Food = class {
 	}
 }
 
-pizza = new Food ('Pizza', '8,99 USD')
-hamburger = new Food ('Hamburger', '3,99 USD')
+const pizza = new Food ('Pizza', '8,99 USD')
+const hamburger = new Food ('Hamburger', '3,99 USD')
