@@ -30,10 +30,10 @@ const Customer = class {
 		this.name = name
 		this.address = address
 	}
-	order(food)
+	order(food) {
 
 	}
-	pay(food)
+	pay(food) {
 
 	}
 }
