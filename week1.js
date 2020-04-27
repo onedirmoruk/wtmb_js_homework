@@ -3,6 +3,7 @@ const Store = class {
 		this.name = name
 		this.style = stlye
 		this.readyToGo = []
+		this.deliveryList = []
 	}
 	prepare(food) {
 		this.readyToGo.push(food)
@@ -21,7 +22,6 @@ const Driver = class {
 	constructor(name, vehicle) {
 		this.name = name
 		this.vehicle = vehicle
-		this.deliveryList = []
 	}
 }
 
