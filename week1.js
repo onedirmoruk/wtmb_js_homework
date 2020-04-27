@@ -1,7 +1,7 @@
 const Store = class {
 	constructor(name, style) {
 		this.name = name
-		this.style = stlye
+		this.style = style
 		this.readyToGo = []
 		this.deliveryList = []
 	}
