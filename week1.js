@@ -31,7 +31,7 @@ const Customer = class {
 		this.address = address
 	}
 	order(food) {
-
+		this.readyToGo.push(food)
 	}
 	pay(food) {
 
