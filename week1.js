@@ -15,7 +15,7 @@ const Store = class {
 	}
 }
 
-const restaurant = new Store ('Ristorante la Piazza', 'Italian')
+const italianRestaurant = new Store ('Ristorante la Piazza', 'Italian')
 const kiosk = new Store ('Corner Buffet', 'Street food')
 
 const Driver = class {
@@ -30,8 +30,8 @@ const Customer = class {
 		this.name = name
 		this.address = address
 	}
-	order(food) {
-		this.readyToGo.push(food)
+	order(food, restaurant) {
+		restaurant.prepare(food)
 	}
 	pay(food) {
 
@@ -47,3 +47,6 @@ const Food = class {
 
 const pizza = new Food ('Pizza', '8,99 USD')
 const hamburger = new Food ('Hamburger', '3,99 USD')
+
+const zafer = new Customer('Zafer', 'Almanya')
+zafer.order(pizza)
