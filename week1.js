@@ -50,3 +50,4 @@ const hamburger = new Food ('Hamburger', '3,99 USD')
 
 const zafer = new Customer('Zafer', 'Scheisse Street')
 zafer.order(pizza, italianRestaurant)
+italianRestaurant.deliver(pizza)
