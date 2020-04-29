@@ -48,5 +48,5 @@ const Food = class {
 const pizza = new Food ('Pizza', '8,99 USD')
 const hamburger = new Food ('Hamburger', '3,99 USD')
 
-const zafer = new Customer('Zafer', 'Almanya')
+const zafer = new Customer('Zafer', 'Scheisse Street')
 zafer.order(pizza)
