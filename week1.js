@@ -52,4 +52,6 @@ const zafer = new Customer('Zafer', 'Scheisse Street')
 zafer.order(pizza, italianRestaurant)
 italianRestaurant.deliver(pizza)
 
+console.log('Total amount to pay: ' + store.deliveryList(food.price))
+
 // Learning how to push
