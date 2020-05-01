@@ -43,15 +43,18 @@ const Food = class {
 	this.name = name
 	this.price = price
 	}
+	learnPrice() {
+		console.log(`Price of the ${this.name} is ${this.price}`)
+	}
 }
 
 const pizza = new Food ('Pizza', '8,99 USD')
+pizza.learnPrice()
+
 const hamburger = new Food ('Hamburger', '3,99 USD')
 
 const zafer = new Customer('Zafer', 'Scheisse Street')
 zafer.order(pizza, italianRestaurant)
 italianRestaurant.deliver(pizza)
-
-console.log('Total amount to pay: ' + store.deliveryList(food.price))
 
 // Learning how to push
